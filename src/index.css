@@ -1,0 +1,63 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+body{
+
+    margin: 0;
+    padding:0;
+}
+
+
+.app{
+
+margin: auto;
+color: violet; 
+text-align: center;
+
+}
+a {
+    text-decoration: none !important;
+  }
+a:visited{
+    color:#088F8F;
+}
+
+ul{
+
+margin-top: 0;
+ margin-left: 15px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.keys{
+ color:#717171;
+font-weight: 500;
+
+}
+
+.keys li::before {content: "•"; color: black;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+.values{
+    list-style-type: none;
+    margin-left: 10px;
+    font-weight: 500;
+    color:black;
+
+}
+
+.colorshadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.withoutshadow{
+
+
+    box-shadow: none;
+}
